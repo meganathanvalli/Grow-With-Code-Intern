@@ -1,0 +1,320 @@
+:root 
+{
+    --instagram-purple: #833AB4;
+    --instagram-pink: #C13584;
+    --instagram-white: #FFFFFF;
+}
+*{
+    margin: 0;
+    padding: 0; 
+}
+header{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: flex;
+    background-color: rgb(180, 179, 179);
+    font-size: 15.5px;
+    padding: 7px;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+header i{
+    margin-left: 50px;
+}
+.header1{
+    margin-left: 6px;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 500px;
+}
+.fa-facebook{
+    background-color: white;
+    color: blue;
+    mix-blend-mode: multiply;
+}
+.fa-x-twitter{
+    color: black;
+}
+.fa-instagram{
+    background-color: var(--instagram-purple); 
+    color: var(--instagram-white); 
+    border: 2px solid var(--instagram-pink);
+}
+.fa-linkedin{
+    background-color: white;
+    color: blue;   
+    mix-blend-mode: multiply;
+}
+.fa-square-google-plus{
+    background-color: white;
+    color: red;
+}
+section{
+    display: flex;
+    float:right;
+    margin: 15px 0;
+}
+section h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Impact,  'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-weight: 300;
+    margin-right: 250px;
+    margin-top: 15px;
+    font-style: italic;
+}
+section ul{
+    float: right;
+}
+section ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0 10px;
+    margin: 0 8px;
+}
+section ul li a{
+    text-decoration: none;
+    color: purple;
+    margin: 10px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    padding: 9px;
+    border-radius: 10px;
+    position: relative;
+    background-color: beige;
+}
+section ul li a:hover{
+    background-color: rgb(235, 203, 144);
+    color: darkblue;
+    border-color: wheat;
+}
+.menu{
+    display: flex;
+    margin-top: 100px;
+    background-color: rgb(214, 216, 216);
+}
+.menu0 img{
+    margin: 60px;
+    width: 100%;
+    height: 70%;
+    background-color: wheat;
+}
+.menu1{
+    margin-left: 100px;
+    margin-top: 5%;
+}
+.menu1 blockquote{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: darkviolet;
+    font-family: fantasy;
+    font-style: italic;
+    text-align: center;
+    margin-right: 5%;
+    justify-content: flex-end;
+}
+.menu1 center{
+    color: rgb(24, 17, 17);
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: monospace,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+.menu1 p{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: darkred;
+    text-align: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 800;
+    margin-right: 5%;
+}
+.container h2{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    justify-content: center;
+    color: darkolivegreen;
+    margin: 3%;
+}
+.container form{ 
+    text-align: left;
+    align-items: center;
+    margin-top: 3%;
+    border: 3px solid rgb(174, 173, 173);
+    border-radius: 15px;
+    padding: 15px;
+    margin:0 520px;
+    background-color: beige;
+    box-shadow: 2px 5px 15px 4px rgb(255, 103, 103);
+}
+.container form h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 6% 0;
+    color:rgb(3, 89, 91);
+    font-style: oblique;
+}
+.container label{
+    color: Blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.container input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    border: 2px solid grey;
+    font-style: italic;
+    color: rgb(116, 5, 81);
+    border-radius: 5px;
+}
+.container select{
+    font-size: 17px;
+    border: 2px solid grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(116, 5, 81);
+}
+#Submit{
+    padding: 5px;
+    color: red;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: aquamarine;
+    font-size: 15px;
+    font-style: italic;
+}
+#Submit:hover{
+    background-color: white;
+    color: darkviolet;
+}
+.subscribe{
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px;
+}
+.subscribe h2{
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: Impact,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 3px 3px rgb(103, 235, 91);
+    color: darkred;
+}
+.subscribe blockquote{
+    margin: 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family:  Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    color:rgb(8, 11, 156);
+}
+.subscribe p{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: rgb(131, 5, 110);
+    margin-top: 15px;
+}
+.subscribe p button{
+    padding: 8px;
+    margin-left: 4px;
+    border: 3px solid red;
+    border-radius: 25px;
+    font-family: Verdana, sans-serif;
+    font-size: 15px ;
+    text-transform: uppercase;
+    color: darkviolet;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+}
+.subscribe p button:hover{
+    border: 3px solid grey;
+    color:white;
+    background-color: rgb(70, 69, 69);
+}
+.footer{
+    margin-top: 35px;
+    background-color:rgb(3, 89, 91);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.footer1 h4, .footer2 h4, .footer3 h4{
+    color: rgb(180, 176, 176);
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer2 ul li{
+    text-align: center; 
+    list-style: none;
+    padding: 5px;
+    margin-top: 10px ;
+    color: whitesmoke;
+    font-weight: 500;
+    font-style: oblique;
+    font-family:'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+.footer1 ul li, .footer3 ul li{
+    list-style: none;
+    padding: 5px;
+    margin-top: 10px ;
+    color: whitesmoke;
+    font-weight: 900;
+    font-style: oblique;
+    font-family:'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+.footer1 ul li:hover, .footer2 ul li:hover, .footer3 ul li:hover{
+    color: darkorange;
+}
+.query{
+    color: rgb(180, 176, 176);
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.footer3 input{
+    margin-top: 15px;
+    font-size: 16px;
+    font-style: oblique;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 5px;
+    color: rgb(102, 89, 238);
+    text-transform: capitalize;
+    font-weight: 900;
+    height: 3.5vh;
+    width: 290px;
+}
+.footer3 button{
+    margin: 10px 0;
+    border: 2px solid rgb(1, 96, 91);
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    padding: 2px;
+    background-color: bisque;
+    font-weight: 700;
+    cursor: pointer;
+}
